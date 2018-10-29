@@ -141,10 +141,11 @@
                   <version>${cas.version}</version>
                 </dependency>
                 <dependency>
-                     <groupId>org.apereo.cas</groupId>
-                     <artifactId>cas-server-support-rest-service-registry</artifactId>
-                     <version>${cas.version}</version>
+                    <groupId>org.apereo.cas</groupId>
+                    <artifactId>cas-server-support-rest</artifactId>
+                    <version>${cas.version}</version>
                 </dependency>
+                
             </dependencies>
         </profile>
 

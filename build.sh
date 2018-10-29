@@ -32,7 +32,7 @@ function clean() {
 function package() {
     shift
 	./mvnw clean package -T 5 "$@"
-	# copy
+	copy
 }
 
 function bootrun() {
