@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /data/zf_workspace/internal/cas-overlay-template
+#cd /data/zf_workspace/internal/cas-overlay-template
 
 tar --exclude cas/META-INF -czf /tmp/cassrv-files.tgz etc/cas -C target cas
 
